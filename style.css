@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 61px;
+    max-width: 1440px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo{
+    margin-left: 24px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin-left: 221.67px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+}
+
+.menu > li{
+    margin: 0 20px;
+}
+
+.menu > li >a{
+    text-decoration: none;
+    color: #011F3A;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+}
+
+.logo2{
+    margin-right: 10px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+}
+
+.heading-account{
+    display: flex;
+    align-items: center;
+    margin-left: 221.67px;
+}
+
+.heading-account > a{
+    text-decoration: none;
+    color: #011F3A;
+}
